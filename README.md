@@ -1,7 +1,7 @@
 **Task: Employee Management System**
 
 **Objective:**
-Build a basic employee management system with admin and employee roles. Admins should have the ability to add, edit, and delete employees. Employees can only view the list of other employees. Additionally, implement a feature to send a welcome email through a queue when a new employee is created. Configure email settings with either Mailtrap or any local/working SMTP credentials.
+Build a basic employee management system with admin and employee roles. Admins should have the ability to add, edit, and delete employees. Employees can only view the list of other employees. Additionally, implement a feature to send a welcome email through a queue when a new employee is created. Configure email settings with either Mailtrap or any local/working SMTP credentials. Test is not done
 
 **Instructions:**
 
@@ -51,12 +51,6 @@ Build a basic employee management system with admin and employee roles. Admins s
    - Add Mailtrap or any local/working SMTP credentials to the `.env` file for the email queue to function.
 
 9. Test the email functionality by creating a new employee and verifying that a welcome email is sent via the queue.
-
-10. For tests you can run:
-
-    ```bash
-     php artisan test
-     ```
 
 **Note:** Ensure that you have the necessary permissions and configurations for the database and email settings.
 
