@@ -19,6 +19,6 @@ yarn-error.log
 /.vscode
 
 
-/public/storage/app/city.json
-/public/storage/app/state.json
-/public/storage/app/country.json
+/storage/app/city.json
+/storage/app/state.json
+/storage/app/country.json
