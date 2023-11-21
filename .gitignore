@@ -17,3 +17,8 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+
+/public/storage/app/city.json
+/public/storage/app/state.json
+/public/storage/app/country.json
