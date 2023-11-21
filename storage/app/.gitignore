@@ -1,3 +1,7 @@
 *
 !public/
 !.gitignore
+
+!city.json
+!country.json
+!state.json
