@@ -14,7 +14,7 @@ Build a basic employee management system with admin and employee roles. Admins s
 2. Install Laravel dependencies using the following command:
 
    ```bash
-   php artisan composer install
+   composer install
    ```
 
 3. After installing dependencies, run the npm build command:
