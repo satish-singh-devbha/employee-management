@@ -23,7 +23,7 @@ class CityStateCountrySeeder extends Seeder
 
     public function insert_country() {
 
-        $country_arrays = json_decode(file_get_contents(storage_path('app\country.json')), true);
+        $country_arrays = json_decode(file_get_contents(storage_path('app/country.json')), true);
         $country_lists = [];
 
         foreach ($country_arrays as $country_data) {
@@ -47,7 +47,7 @@ class CityStateCountrySeeder extends Seeder
 
     public function insert_state() {
 
-        $state_arrays = json_decode(file_get_contents(storage_path('app\state.json')), true);
+        $state_arrays = json_decode(file_get_contents(storage_path('app/state.json')), true);
         $state_lists = [];
 
         foreach ($state_arrays as $state_data) {
@@ -71,7 +71,7 @@ class CityStateCountrySeeder extends Seeder
 
     public function insert_city() {
 
-        $states_arrays = json_decode(file_get_contents(storage_path('app\city.json')), true);
+        $states_arrays = json_decode(file_get_contents(storage_path('app/city.json')), true);
         $city_lists = [];
 
         foreach($states_arrays as $city_arrays) {
